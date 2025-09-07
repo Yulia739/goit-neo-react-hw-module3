@@ -1,0 +1,39 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+  text-align: center;
+  padding: var(--space-4);
+}
+
+h1 {
+  margin-bottom: 0;
+  color: var(--color-primary);
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  padding: var(--space-2) var(--space-5);
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  line-height: 1.4;
+  white-space: nowrap;
+  color: var(--color-text);
+  background: var(--color-primary);
+  border-radius: var(--radius-lg);
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+button:hover {
+  background: var(--color-primary-600);
+}

@@ -1,0 +1,35 @@
+:root {
+  --border-color: rgb(0 128 96 / 36%);
+}
+
+.contact-container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 250px;
+  padding: var(--space-3);
+}
+
+.name-number-container {
+  text-align: left;
+}
+
+.icon-name-container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.phone {
+  margin-right: var(--space-1);
+}

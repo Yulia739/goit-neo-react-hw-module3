@@ -1,0 +1,33 @@
+.searchbox-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 250px;
+  gap: var(--space-1);
+}
+
+.label {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.field {
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  outline: 0;
+  color: var(--color-text);
+  background-color: var(--color-surface-2);
+  border-radius: var(--radius);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: var(--space-1) var(--space-2);
+  min-height: 28px;
+  vertical-align: middle;
+  transition: border-color 0.24s ease;
+}
+
+.field:focus,
+.field:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--ring);
+}
